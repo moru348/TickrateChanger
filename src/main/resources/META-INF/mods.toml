@@ -1,0 +1,27 @@
+modLoader="javafml"
+loaderVersion="[32,)"
+license="All Rights Reserved"
+[[mods]] #mandatory
+modId="tickratechanger" #mandatory
+version="${file.jarVersion}" #mandatory
+displayName="TickrateChanger" #mandatory
+#updateJSONURL="http://myurl.me/" #optional
+#displayURL="http://example.com/" #optional
+#logoFile="tickratechanger.png" #optional
+#credits="Thanks for this example mod goes to Java" #optional
+authors="moru3_48" #optional
+description='''
+This mod is a TickrateChanger compatible with Forge version 1.14.2 and above.
+'''
+[[dependencies.tickratechanger]] #optional
+   modId="forge" #mandatory
+   mandatory=true #mandatory
+   versionRange="[32,)" #mandatory
+   ordering="NONE"
+   side="BOTH"
+[[dependencies.tickratechanger]]
+   modId="minecraft"
+   mandatory=true
+   versionRange="[1.16,1.17)"
+   ordering="NONE"
+   side="BOTH"
